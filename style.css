@@ -8,6 +8,7 @@ header {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     padding: 0px 50px;
+    margin: auto;
 }    
 
 .conteneur {
@@ -20,7 +21,6 @@ header {
     display: flex;
     flex-direction: row;
     gap: 70px;
-  
 }
 
 .linkHeader {
@@ -28,11 +28,12 @@ header {
     text-decoration: none;
     color: #B6B3B3;
     align-items: center;
+    text-align: center;
+    padding-top: 30px;
 }
 .linkHeader:hover {
-    text-decoration:overline #0065FC solid;
     color:#0065FC;
-    
+    border-top: solid #0065FC;
 }
 /* section 1: Filters */
 
@@ -41,15 +42,209 @@ strong {
     }
 
 .localisation {
+    display: inline;
+    margin: 20px;
+     
+}
+
+i.fas.fa-map-marker-alt  {
+    color: black;
+    background-color: #F2F2F2 ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+    padding: 15px 15px;
+    margin-right: 10px;
+   
+}
+
+.lieu {
+   font-weight: bold;
+   font-size: 15px;
+   color:black;
+   border:#F2F2F2 solid 2px;
+   height: 40px;
+}
+
+.bouton {   
+    background-color: #0065FC;
+    color: white;
+    border: solid;
+    border-color: #0065FC 5px; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+    height: 50px;
+
+}
+
+.filtres {
     display: flex;
     flex-direction: row;
-    border-top: 2px solid#F2F2F2 ;
-    border-right: 2px solid #F2F2F2;
-    border-radius:50px;
-    background-color:#F2F2F2 ;
-    height: 30px;
-    width: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+i.fas {
+    color:#0065FC ;
+    background-color:#DEEBFF;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    
+     }
+
+.economique {
+    border: #F2F2F2 solid;
+    border-radius: 30px;
     text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.economique:hover {
+    color: #0065FC;
+   }
+
+.familial {
+    border: #F2F2F2 solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 10px;    
+}
+.familial:hover {
+    color: #0065FC;
+}
+
+.romantique {
+    border: #F2F2F2 solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.romantique:hover {
+    color: #0065FC;
+}
+
+.animaux {
+    border: #F2F2F2 solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.animaux:hover {
+    color: #0065FC;
+}
+
+.info {
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+  
+}
+
+.fas.fa-info{
+    color:#0065FC ;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-right: 10px;
+}
+
+
+/*Section 2: Hébergement à Marseille*/
+
+.conteneur2 {
+
+    background-color:#F2F2F2 ;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.etoile {
+    display: flex;
+    flex-direction: row;
+    }
+
+.fas.fa-star {
+        background-color: white;
+    
+}
+
+.auberge {
+    display: flex;
+    flex-direction: column;
+
+}
+.aubergeCannebiere {
+    height: 15%;
+    width: 15%;
+
+}
+
+.HPort {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelDuPort {
+    height: 15%;
+    width: 15%;
+}
+
+.HMouettes {
+    display: flex;
+    flex-direction: column;
+}
+
+.HotelLesMouettes {
+    height: 15%;
+    width: 15%;
+}
+
+.HMer {
+display: flex;
+flex-direction: column;
+}
+
+.HotelDeLaMer {
+    height: 15%;
+    width: 15%;
+}
+
+.ALePanier {
+    display: flex;
+    flex-direction: column;
+}
+
+.AubergeLePanier {
+height: 15%;
+width: 15%;
+}
+
+.HAmina {
+    display: flex;
+    flex-direction: column;
+}
+
+.HotelChezAmina {
+    height: 15%;
+    width: 15%;
 }
 
 @media all and (max-width: 768px) {
