@@ -168,8 +168,33 @@ i.fas {
 /*Section 2: Hébergement à Marseille*/
 
 .conteneur2 {
+    background-color:#F2F2F2;
+    border-radius: 3%;
+    padding: 10px;   
+    width: 800px;
+    height: 550px;
+    
+    
+}
 
-    background-color:#F2F2F2 ;
+.HAMarseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hébergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.h3 {
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 .price {
@@ -179,75 +204,90 @@ i.fas {
 .etoile {
     display: flex;
     flex-direction: row;
-    }
+     }
 
 .fas.fa-star {
-        background-color: white;
-    
+        background: none;
+        display: flex;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 3px;
 }
 
-.auberge {
+.logement {
     display: flex;
     flex-direction: column;
+    background-color: white;
+border: white;
+margin-bottom: 30px;
+margin-right: 10px;
+border-radius: 20px;
+height: 180px;
+width: 230px;
+padding:2px;
 
 }
-.aubergeCannebiere {
-    height: 15%;
-    width: 15%;
 
-}
-
-.HPort {
+.logementPhoto {
     display: flex;
-    flex-direction: column;
+    align-self: center;
+    height: 50%;
+    width: 95%;
+    border-radius: 16% 16% 0% 0%;
+    padding-top: 2px;
+          
 }
 
-.hotelDuPort {
-    height: 15%;
-    width: 15%;
+.texte {
+ height: 80px;
+ display: inline;
+ font-size: 13px;
 }
 
-.HMouettes {
+.p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.AfficherPlus {
+    font-weight: bolder;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
 }
 
-.HotelLesMouettes {
-    height: 15%;
-    width: 15%;
+/* Sections 3:Les plus populaires*/
+
+.conteneur3 {
+
+ background-color:#F2F2F2;
+    border-radius: 3%;
+    padding: 10px;
+    width: 450px;
+    height: 550px;
 }
 
-.HMer {
-display: flex;
-flex-direction: column;
-}
-
-.HotelDeLaMer {
-    height: 15%;
-    width: 15%;
-}
-
-.ALePanier {
+.titreIconePopulaire {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
 }
 
-.AubergeLePanier {
-height: 15%;
-width: 15%;
+.fas.fa-chart-line {
+    color: black;
+    background: none;
+    font-size: 24px;
 }
 
-.HAmina {
-    display: flex;
-    flex-direction: column;
-}
-
-.HotelChezAmina {
-    height: 15%;
-    width: 15%;
-}
 
 @media all and (max-width: 768px) {
     header {
     width: auto
     }
+
+@media all and (max-widht: 992px) {
+
+}
