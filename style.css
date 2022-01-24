@@ -91,9 +91,8 @@ i.fas.filter {
     display: inline-block;
     border-radius: 30px;
     padding: 10px 10px;
-    margin-right: 10px;
-    
-     }
+    margin-right: 10px;    
+}
 
 .economique {
     border: #F2F2F2 solid;
@@ -105,9 +104,10 @@ i.fas.filter {
     font-weight: bold;
     padding-right: 10px;
 }
+
 .economique:hover {
     color: #0065FC;
-   }
+}
 
 .familial {
     border: #F2F2F2 solid;
@@ -118,6 +118,7 @@ i.fas.filter {
     font-weight: bold;
     padding-right: 10px;    
 }
+
 .familial:hover {
     color: #0065FC;
 }
@@ -131,6 +132,7 @@ i.fas.filter {
     font-weight: bold;
     padding-right: 10px;
 }
+
 .romantique:hover {
     color: #0065FC;
 }
@@ -143,25 +145,26 @@ i.fas.filter {
     font-weight: bold;
     padding-right: 10px;
 }
+
 .animaux:hover {
     color: #0065FC;
 }
 
 .info {
-    display: inline-block;
+    display: flex;
     flex-direction: row;
-    vertical-align: middle;
-  
+    vertical-align: middle; 
 }
 
 .fas.fa-info{
     color:#0065FC ;
     border: 2px solid #F2F2F2;
-    background-color: white;
-    display: inline-block;
+    display: flex;
     border-radius: 20px;
-    padding-left: 16px;
-    padding-right: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-right: 10px;
 }
 
@@ -172,33 +175,33 @@ i.fas.filter {
     flex-direction: row;
     justify-content: space-around;
 }
+
 .conteneur2 {
     background-color:#F2F2F2;
     border-radius: 3%;
     padding: 10px;   
     width: 800px;
-    height: 550px;
-       
+    height: 601px;      
 }
 
 .HAMarseille {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 15px;    
 }
+
 .hébergements {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .h3 {
     font-weight: bolder;
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;    
 }
 
 .price {
@@ -208,7 +211,7 @@ i.fas.filter {
 .etoile {
     display: flex;
     flex-direction: row;
-     }
+}
 
 .fas.fa-star {
         background: none;
@@ -216,9 +219,13 @@ i.fas.filter {
     margin: 0px;
     padding: 0px;
     padding-bottom: 3px;
+    color: #F2F2F2;
 }
 
+.fas.blue.fa-star {
+    color: #0065FC;
 
+}
 .logement {
     display: flex;
     flex-direction: column;
@@ -230,7 +237,6 @@ border-radius: 20px;
 height: 180px;
 width: 230px;
 padding:2px;
-
 }
 
 .logementPhoto {
@@ -239,8 +245,7 @@ padding:2px;
     height: 50%;
     width: 95%;
     border-radius: 16% 16% 0% 0%;
-    padding-top: 2px;
-          
+    padding-top: 2px;         
 }
 
 .texte {
@@ -259,7 +264,7 @@ padding:2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  
+    padding-left: 15px; 
 }
 
 /* Sections 3:Les plus populaires*/
@@ -268,16 +273,14 @@ padding:2px;
  background-color:#F2F2F2;
     border-radius: 3%;
     width: 500px;
-    height: 640px;
-    
+    height: 620px;   
 }
 
 .LesPPopulaires {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:30px; 
-    background-color: green ;
+    gap:30px;   
 }
 
 .titreIconePopulaire {
@@ -285,7 +288,8 @@ padding:2px;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .fas.fa-chart-line {
@@ -306,21 +310,134 @@ padding:2px;
     border-radius: 20px;
     background-color: white;
     height: 150px;
-    width: 400px;
-   
+    width: 400px; 
 }
 
 .photoPopulaire {
     width: 150px;
     height: 140px;
     padding: 3px;
-    border-radius: 16% 0% 0% 16%;
-    
+    border-radius: 16% 0% 0% 16%;    
 }
+
+/* Les activités */
+
+.conteneur4 {
+    
+    background-color: darksalmon;
+    height: 450px;    
+}
+
+.conteneur5 {
+   background-color: orchid; 
+   padding-left: 50px;  
+}
+
+.conteneurAconteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.h4 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteneur6 {
+    background-color: gold;
+    width: 290px;
+    height: 390px;    
+}
+
+.vieuxPort {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;
+}
+
+.conteneur7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: orangered;
+    width: 290px ;
+    height: 390px ;
+}
+
+.conteneurA {  
+    background-color: #0065FC;
+    height: 60%;
+    width: 100%;
+}
+
+.fort {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;
+}
+
+.conteneurB {
+    height: 40%;
+    width: 100%;
+}
+
+.frioul {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;
+}
+
+.conteneur8 {
+    background-color: gold;
+    width: 290px;
+    height: 390px;
+}
+
+.parcN {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;
+}
+
+.conteneur9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: orangered;
+    width: 290px ;
+    height: 390px ;
+}
+
+.conteneurC {  
+    background-color: #0065FC;
+    height: 40%;
+    width: 100%;
+}
+
+.notreDame {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;
+}
+
+.conteneurD {  
+    background-color: #0065FC;
+    height: 60%;
+    width: 100%;
+}    
+
+.parcL {
+    height: 90%;
+    width: 100%;
+    border-radius: 7% 7% 0% 0%;  
+}
+
 
 /* Footer */
 
-.conteneur5 {
+.conteneur10 {
     background-color:#F2F2F2;  
     width: 900px;
     height: 250px;
