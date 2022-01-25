@@ -9,7 +9,11 @@ header {
     font-family: 'Raleway', sans-serif;
     padding: 0px 50px;
     margin: auto;
-}    
+}  
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
 
 .conteneur {
     display: flex;
@@ -36,6 +40,12 @@ header {
     border-top: solid #0065FC;
 }
 /* section 1: Filters */
+
+.h1Strong {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 strong {
     color:#B6B3B3
@@ -81,6 +91,7 @@ i.fas.map {
 .filtres {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     margin: 20px;
     font-weight: bold;
 }
@@ -198,7 +209,7 @@ i.fas.filter {
     justify-content: space-around;
 }
 
-.h3 {
+h3 {
     font-weight: bolder;
     margin: 0px;
     padding: 0px;    
@@ -211,6 +222,8 @@ i.fas.filter {
 .etoile {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    
 }
 
 .fas.fa-star {
@@ -250,11 +263,14 @@ padding:2px;
 
 .texte {
  height: 80px;
- display: inline;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
  font-size: 13px;
+ margin-left: 7px;
 }
 
-.p {
+p {
     margin: 0px;
     padding: 0px;
 }
@@ -290,6 +306,24 @@ padding:2px;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.pop {
+    display: block;
+    flex-direction: column;
+}
+
+.pop1 {
+    display: block;
+    flex-direction: column;
+    height: 80%;  
+}
+
+.pop2 {
+
+    display: block;
+    flex-direction: column;
+     height: 20%;
 }
 
 .fas.fa-chart-line {
@@ -339,9 +373,11 @@ padding:2px;
     align-items: stretch;
 }
 
-.h4 {
+h4 {
+    font-weight: bolder;
     margin: 0px;
-    padding: 0px;
+    padding-left: 10px;
+    padding-top: 3px;
 }
 
 .conteneur6 {  
@@ -360,7 +396,7 @@ padding:2px;
 .conteneur7 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
+    justify-content:space-between;   
     background-color: orangered;
     width: 290px ;
     height: 390px ;
@@ -369,7 +405,7 @@ padding:2px;
 
 .conteneurA {  
     background-color: #0065FC;
-    height: 60%;
+    height: 58%;
     width: 100%;
     border-radius: 0% 0% 7% 7%;
 }
@@ -382,14 +418,14 @@ padding:2px;
 
 .conteneurB { 
     background-color: aquamarine;
-    height: 40%;
+    height: 35%;
     width: 100%;
     border-radius: 0% 0% 7% 7%;
     
 }
 
 .frioul {
-    height: 80%;
+    height: 78%;
     width: 100%;
     border-radius: 7% 7% 0% 0%;
 }
@@ -410,7 +446,7 @@ padding:2px;
 .conteneur9 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  
+    justify-content:space-between;   
     background-color: rgb(255, 217, 0);
     width: 290px ;
     height: 390px ;
@@ -419,20 +455,20 @@ padding:2px;
 
 .conteneurC {  
     background-color: aquamarine;
-    height: 50%;
+    height: 42%;
     width: 100%;
     border-radius: 0% 0% 7% 7%;
 }
 
 .notreDame {
-    height: 90%;
+    height: 80%;
     width: 100%;
     border-radius: 7% 7% 0% 0%;
 }
 
 .conteneurD {  
     background-color: #0065FC;
-    height: 50%;
+    height: 55%;
     width: 100%;
     border-radius: 0% 0% 7% 7%;
 }    
