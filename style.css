@@ -51,6 +51,21 @@ strong {
     color:#B6B3B3
     }
 
+.bloc {
+    display: flex;
+    flex-direction: column;
+   margin-left: 30px;
+}
+
+
+.bloc1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
 .localisation {
     display: flex; 
     justify-content: flex-start;      
@@ -65,9 +80,6 @@ strong {
     height: 46px;
     width: 40px;
     background: #F2F2F2;
-}
-i.fas.map {
-
 }
 
 .lieu {
@@ -85,7 +97,8 @@ i.fas.map {
     border-color: #0065FC 5px; 
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px ;
-    height: 46px;
+    height: 49px;
+    margin-left: 0px;
 }
 
 .filtres {
@@ -110,8 +123,7 @@ i.fas.filter {
     border-radius: 30px;
     text-align: center;
     margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    margin-left: 20px;   
     font-weight: bold;
     padding-right: 10px;
 }
@@ -123,8 +135,7 @@ i.fas.filter {
 .familial {
     border: #F2F2F2 solid;
     border-radius: 30px;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center;  
     margin-right: 20px;
     font-weight: bold;
     padding-right: 10px;    
@@ -137,8 +148,7 @@ i.fas.filter {
 .romantique {
     border: #F2F2F2 solid;
     border-radius: 30px;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center;  
     margin-right: 20px;
     font-weight: bold;
     padding-right: 10px;
@@ -152,7 +162,6 @@ i.fas.filter {
     border: #F2F2F2 solid;
     border-radius: 30px;
     text-align: center;
-    margin-bottom: 50px;
     font-weight: bold;
     padding-right: 10px;
 }
@@ -191,15 +200,15 @@ i.fas.filter {
     background-color:#F2F2F2;
     border-radius: 3%;
     padding: 10px;   
-    width: 800px;
-    height: 601px;      
+    width: 60%;
+          
 }
 
 .HAMarseille {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 15px;    
+    padding-left: 30px;
 }
 
 .hébergements {
@@ -244,11 +253,12 @@ h3 {
     flex-direction: column;
     background-color: white;
 border: white;
+box-shadow: 2px 4px 3px #ece7e7;
 margin-bottom: 30px;
 margin-right: 10px;
 border-radius: 20px;
-height: 180px;
-width: 230px;
+height: 13%;
+width: 25%;
 padding:2px;
 }
 
@@ -258,7 +268,7 @@ padding:2px;
     height: 50%;
     width: 95%;
     border-radius: 16% 16% 0% 0%;
-    padding-top: 2px;         
+    padding-top: 3px;         
 }
 
 .texte {
@@ -285,27 +295,28 @@ p {
 
 /* Sections 3:Les plus populaires*/
 
-.conteneur3 {
- background-color:#F2F2F2;
+.conteneur3 { 
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
     border-radius: 3%;
-    width: 500px;
-    height: 620px;   
+    width: 30% ;      
 }
 
 .LesPPopulaires {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:30px;   
+    
+    gap: 30px;
+     
 }
 
 .titreIconePopulaire {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-around;    
 }
 
 .pop {
@@ -342,28 +353,31 @@ p {
     flex-direction: row;
     border: white;
     border-radius: 20px;
+    box-shadow: 2px 4px 3px #ece7e7;
     background-color: white;
-    height: 150px;
-    width: 400px; 
+    height: 30%;
+    width: 90%; 
 }
 
 .photoPopulaire {
     width: 150px;
-    height: 140px;
-    padding: 3px;
+    height: 130px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 16% 0% 0% 16%;    
 }
 
 /* Les activités */
 
 .conteneur4 {
-    background-color: darksalmon;
-    height: 450px;    
+    background-color:none ;
+    margin-top: 50px;       
 }
 
 .conteneur5 {
-   background-color: orchid; 
-   padding-left: 50px;  
+   background-color:none ; 
+   padding-left: 30px;  
 }
 
 .conteneurAconteneur {
@@ -376,15 +390,16 @@ p {
 h4 {
     font-weight: bolder;
     margin: 0px;
-    padding-left: 10px;
     padding-top: 3px;
+    padding-left: 20px;
 }
 
 .conteneur6 {  
-    background-color: gold;
+    background-color: none;
+    box-shadow: 2px 4px 3px #ece7e7;
     width: 290px;
     height: 390px;
-    border-radius: 0% 0% 7% 7%;  
+    border-radius: 7% 7% 7% 7%;  
 }
 
 .vieuxPort {
@@ -397,17 +412,17 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    background-color: orangered;
+    background-color:none ;
     width: 290px ;
-    height: 390px ;
-    
+    height: 390px ;    
 }
 
 .conteneurA {  
-    background-color: #0065FC;
+    background-color: none;
+    box-shadow: 2px 4px 3px #ece7e7;
     height: 58%;
     width: 100%;
-    border-radius: 0% 0% 7% 7%;
+    border-radius: 7% 7% 7% 7%;
 }
 
 .fort {
@@ -417,11 +432,11 @@ h4 {
 }
 
 .conteneurB { 
-    background-color: aquamarine;
+    background-color: none;
+    box-shadow: 2px 4px 3px #ece7e7;
     height: 35%;
     width: 100%;
-    border-radius: 0% 0% 7% 7%;
-    
+    border-radius: 7% 7% 7% 7%;    
 }
 
 .frioul {
@@ -431,10 +446,11 @@ h4 {
 }
 
 .conteneur8 {
-    background-color: gold;
+    background-color: none ;
+    box-shadow: 2px 4px 3px #ece7e7;
     width: 290px;
     height: 390px;
-    border-radius: 0% 0% 7% 7%;
+    border-radius: 7% 7% 7% 7%;
 }
 
 .parcN {
@@ -447,17 +463,17 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    background-color: rgb(255, 217, 0);
+    background-color:none ;
     width: 290px ;
-    height: 390px ;
-    
+    height: 390px ;   
 }
 
 .conteneurC {  
-    background-color: aquamarine;
+    background-color:none ;
+    box-shadow: 2px 4px 3px #ece7e7;
     height: 42%;
     width: 100%;
-    border-radius: 0% 0% 7% 7%;
+    border-radius: 7% 7% 7% 7%;
 }
 
 .notreDame {
@@ -467,40 +483,77 @@ h4 {
 }
 
 .conteneurD {  
-    background-color: #0065FC;
+    background-color: none;
+    box-shadow: 2px 4px 3px #ece7e7;
     height: 55%;
     width: 100%;
-    border-radius: 0% 0% 7% 7%;
+    border-radius: 10% 10% 7% 7%;
 }    
 
 .parcL {
     padding-top: 10px;
     height: 80%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;  
+    border-radius: 10% 10% 0% 0%;  
 }
 
 
 /* Footer */
 
 .conteneur10 {
-    background-color:#F2F2F2;  
-    width: 900px;
-    height: 250px;
-}
-
-.LeFooter {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    background-color:#e61f1f;
+    margin-top: 50px;  
+    justify-content: space-around;
 }
 
-.footer {
-    list-style: none;
+.leFooter {
+    display: flex;
+    flex-direction: row;  
+    border: black 2px solid;
+    width: 29%;
+    padding-bottom: 10px; 
+}
+
+.footer1 {  
     display: flex;
     flex-direction: column;
-   
+    background-color: #0065FC;
+    list-style: none;    
 }
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    list-style: none;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    list-style: none;
+}
+
+ul {
+padding-left: 0%;
+}
+
+h5 {
+    padding-left: 0%;
+    margin: 0%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+li {
+    padding-bottom: 15%;
+}
+
 
 /* Fin du Footer */
 
