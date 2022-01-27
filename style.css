@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 strong {
@@ -99,11 +100,22 @@ strong {
     border-top-right-radius: 10px ;
     height: 49px;
     margin-left: 0px;
+        
 }
 
 .filtres {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.filtresMobiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: baseline;
     margin: 20px;
     font-weight: bold;
@@ -248,6 +260,12 @@ h3 {
     color: #0065FC;
 
 }
+
+a {
+text-decoration: none;
+color: black;
+}
+
 .logement {
     display: flex;
     flex-direction: column;
@@ -265,10 +283,11 @@ padding:2px;
 .logementPhoto {
     display: flex;
     align-self: center;
-    height: 50%;
-    width: 95%;
+    height: 103px;
+    width: 204px;
     border-radius: 16% 16% 0% 0%;
-    padding-top: 3px;         
+    padding-top: 3px;
+           
 }
 
 .texte {
@@ -278,11 +297,6 @@ padding:2px;
  justify-content: space-around;
  font-size: 13px;
  margin-left: 7px;
-}
-
-p {
-    margin: 0px;
-    padding: 0px;
 }
 
 .AfficherPlus {
@@ -306,10 +320,8 @@ p {
 .LesPPopulaires {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    gap: 30px;
-     
+    align-items: center;  
+    gap: 20px;    
 }
 
 .titreIconePopulaire {
@@ -503,55 +515,45 @@ h4 {
 .conteneur10 {
     display: flex;
     flex-direction: row;
-    background-color:#e61f1f;
-    margin-top: 50px;  
+    background-color: #F2F2F2;
+    margin-top: 40px;  
     justify-content: space-around;
+    align-items:baseline;
 }
 
 .leFooter {
     display: flex;
-    flex-direction: row;  
-    border: black 2px solid;
+    flex-direction: row;     
     width: 29%;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 
-.footer1 {  
+.footer {  
     display: flex;
     flex-direction: column;
-    background-color: #0065FC;
     list-style: none;    
-}
-
-.footer2 {
-    display: flex;
-    flex-direction: column;
-    background-color: chartreuse;
-    list-style: none;
-}
-
-.footer3 {
-    display: flex;
-    flex-direction: column;
-    background-color: coral;
-    list-style: none;
 }
 
 ul {
 padding-left: 0%;
+
 }
 
 h5 {
     padding-left: 0%;
+    padding-bottom: 5%;
     margin: 0%;
     margin-top: 15%;
-    margin-bottom: 15%;
     font-weight: bolder;
     font-size: 16px;
 }
 
 li {
-    padding-bottom: 15%;
+    padding-bottom: 25px ;
+}
+
+.linkFooter:hover {
+    color: #0065FC;
 }
 
 
@@ -561,7 +563,8 @@ li {
     header {
     width: auto
     }
-
+   
+    
 @media all and (max-widht: 992px) {
 
 }
