@@ -233,7 +233,7 @@ i.fas.filter {
     justify-content: space-around;
 }
 
-h3 {
+.titreVignette {
     font-weight: bolder;
     margin: 0px;
     padding: 0px;    
@@ -246,8 +246,7 @@ h3 {
 .etoile {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    
+    align-items: flex-end;    
 }
 
 .fas.fa-star {
@@ -340,6 +339,12 @@ padding:2px;
     flex-direction: column;
 }
 
+.titreCardP {
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;     
+}
+
 .pop1 {
     display: block;
     flex-direction: column;
@@ -350,6 +355,13 @@ padding:2px;
     display: block;
     flex-direction: column;
      height: 20%;
+}
+
+
+.etoileP {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;    
 }
 
 .fas.fa-chart-line {
@@ -402,7 +414,7 @@ padding:2px;
     align-items: stretch;
 }
 
-h4 {
+.titreCard {
     font-weight: bolder;
     margin: 0px;
     padding-top: 4px;
