@@ -342,7 +342,8 @@ padding:2px;
 .titreCardP {
     font-weight: bolder;
     margin: 0px;
-    padding: 0px;     
+    padding: 0px;
+    line-height: 100%;     
 }
 
 .pop1 {
@@ -357,11 +358,11 @@ padding:2px;
      height: 20%;
 }
 
-
 .etoileP {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;    
+    align-items: flex-end;
+    padding-left: 10px;    
 }
 
 .fas.fa-chart-line {
@@ -387,8 +388,8 @@ padding:2px;
 }
 
 .photoPopulaire {
-    width: 150px;
-    height: 130px;
+    width: 35%;
+    height: 90%;
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -398,12 +399,10 @@ padding:2px;
 /* Les activités */
 
 .conteneur4 {
-    background-color:none ;
     margin-top: 50px;       
 }
 
 .conteneur5 {
-   background-color:none ; 
    padding-left: 30px;  
 }
 
@@ -419,33 +418,35 @@ padding:2px;
     margin: 0px;
     padding-top: 4px;
     padding-left: 20px;
+    line-height: 100%;
+}
+
+.textePrice {
+    line-height: 100%;
 }
 
 .conteneur6 {  
-    background-color: none;
     box-shadow: 2px 4px 3px #ece7e7;
     width: 290px;
     height: 390px;
-    border-radius: 7% 7% 7% 7%;  
+    border-radius: 20px 20px 20px 20px;  
 }
 
 .vieuxPort {
     height: 92%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;
+    border-radius: 20px 20px 0% 0%;
 }
 
 .conteneur7 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    background-color:none ;
-    width: 290px ;
-    height: 390px ;    
+    width: 290px;
+    height: 390px;    
 }
 
 .conteneurA {  
-    background-color: none;
     box-shadow: 2px 4px 3px #ece7e7;
     height: 58%;
     width: 100%;
@@ -453,13 +454,12 @@ padding:2px;
 }
 
 .fort {
-    height: 80%;
+    height: 85%;
     width: 100%;
     border-radius:20px 20px 0px 0px;
 }
 
 .conteneurB { 
-    background-color: none;
     box-shadow: 2px 4px 3px #ece7e7;
     height: 35%;
     width: 100%;
@@ -473,7 +473,6 @@ padding:2px;
 }
 
 .conteneur8 {
-    background-color: none ;
     box-shadow: 2px 4px 3px #ece7e7;
     width: 290px;
     height: 390px;
@@ -490,17 +489,16 @@ padding:2px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    background-color:none ;
     width: 290px ;
-    height: 390px ;   
+    height: 390px ;
+    gap: 30px;   
 }
 
-.conteneurC {  
-    background-color:none ;
+.conteneurC {   
     box-shadow: 2px 4px 3px #ece7e7;
     height: 42%;
     width: 100%;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;    
 }
 
 .notreDame {
@@ -510,16 +508,14 @@ padding:2px;
 }
 
 .conteneurD {  
-    background-color: none;
     box-shadow: 2px 4px 3px #ece7e7;
     height: 55%;
     width: 100%;
     border-radius: 20px 20px 20px 20px;
 }    
 
-.parcL {
-    padding-top: 10px;
-    height: 80%;
+.parcL { 
+    height: 85%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;  
 }
@@ -551,7 +547,6 @@ padding:2px;
 
 ul {
 padding-left: 0%;
-
 }
 
 h5 {
