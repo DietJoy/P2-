@@ -91,16 +91,18 @@ strong {
    height: 40px;
 }
 
-.bouton {   
+button {   
     background-color: #0065FC;
     color: white;
-    border: solid;
-    border-color: #0065FC 5px; 
+    border: solid #0065FC 5px ;   
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px ;
-    height: 49px;
-    margin-left: 0px;
-        
+    height: 46px;
+    margin-left: 0px;        
+}
+
+.bouton:hover {
+    background-color: #0b4aa8;   
 }
 
 .filtres {
@@ -185,7 +187,9 @@ i.fas.filter {
 .info {
     display: flex;
     flex-direction: row;
-    vertical-align: middle; 
+    align-items: center;
+    color: #B6B3B3;
+    font-weight: bold ; 
 }
 
 .fas.fa-info{
@@ -200,7 +204,6 @@ i.fas.filter {
     margin-right: 10px;
 }
 
-
 /*Section 2: Hébergement à Marseille*/
 .conteneur1 {
     display: flex;
@@ -210,7 +213,7 @@ i.fas.filter {
 
 .conteneur2 {
     background-color:#F2F2F2;
-    border-radius: 3%;
+    border-radius: 20px;
     padding: 10px;   
     width: 60%;
           
@@ -258,7 +261,6 @@ h3 {
 
 .fas.blue.fa-star {
     color: #0065FC;
-
 }
 
 a {
@@ -284,17 +286,19 @@ padding:2px;
     display: flex;
     align-self: center;
     height: 103px;
-    width: 204px;
-    border-radius: 16% 16% 0% 0%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
     padding-top: 3px;
            
 }
 
 .texte {
- height: 80px;
  display: flex;
  flex-direction: column;
- justify-content: space-around;
+ height: 60px;
+ line-height: 50%;
+ padding-left: 5px ;
+ padding-top: 15px ;
  font-size: 13px;
  margin-left: 7px;
 }
@@ -313,7 +317,7 @@ padding:2px;
     display: flex;
     flex-direction: column;
     background-color:#F2F2F2;
-    border-radius: 3%;
+    border-radius: 20px;
     width: 30% ;      
 }
 
@@ -343,7 +347,6 @@ padding:2px;
 }
 
 .pop2 {
-
     display: block;
     flex-direction: column;
      height: 20%;
@@ -402,7 +405,7 @@ padding:2px;
 h4 {
     font-weight: bolder;
     margin: 0px;
-    padding-top: 3px;
+    padding-top: 4px;
     padding-left: 20px;
 }
 
@@ -434,13 +437,13 @@ h4 {
     box-shadow: 2px 4px 3px #ece7e7;
     height: 58%;
     width: 100%;
-    border-radius: 7% 7% 7% 7%;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .fort {
     height: 80%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;
+    border-radius:20px 20px 0px 0px;
 }
 
 .conteneurB { 
@@ -448,13 +451,13 @@ h4 {
     box-shadow: 2px 4px 3px #ece7e7;
     height: 35%;
     width: 100%;
-    border-radius: 7% 7% 7% 7%;    
+    border-radius: 20px 20px 20px 20px;    
 }
 
 .frioul {
     height: 78%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .conteneur8 {
@@ -462,13 +465,13 @@ h4 {
     box-shadow: 2px 4px 3px #ece7e7;
     width: 290px;
     height: 390px;
-    border-radius: 7% 7% 7% 7%;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .parcN {
     height: 92%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .conteneur9 {
@@ -485,13 +488,13 @@ h4 {
     box-shadow: 2px 4px 3px #ece7e7;
     height: 42%;
     width: 100%;
-    border-radius: 7% 7% 7% 7%;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .notreDame {
     height: 80%;
     width: 100%;
-    border-radius: 7% 7% 0% 0%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .conteneurD {  
@@ -499,14 +502,14 @@ h4 {
     box-shadow: 2px 4px 3px #ece7e7;
     height: 55%;
     width: 100%;
-    border-radius: 10% 10% 7% 7%;
+    border-radius: 20px 20px 20px 20px;
 }    
 
 .parcL {
     padding-top: 10px;
     height: 80%;
     width: 100%;
-    border-radius: 10% 10% 0% 0%;  
+    border-radius: 20px 20px 0px 0px;  
 }
 
 
@@ -563,7 +566,17 @@ li {
     header {
     width: auto
     }
-   
+nav.conteneur{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkHeader:hover {
+    border-bottom: solid #0065FC;
+    border-top: none;
+}
+
+}  
     
 @media all and (max-widht: 992px) {
 
