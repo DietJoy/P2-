@@ -92,7 +92,7 @@ body {
    height: 40px;
 }
 
-button {   
+.recherche {   
     background-color: #0065FC;
     color: white;
     border: solid #0065FC 5px ;   
@@ -102,8 +102,12 @@ button {
     margin-left: 0px;        
 }
 
-.bouton:hover {
+.recherche:hover {
     background-color: #0b4aa8;   
+}
+
+.loupe {
+display: none;  
 }
 
 .filtres {
@@ -140,7 +144,7 @@ i.fas.filter {
     margin-right: 20px;
     margin-left: 20px;   
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .economique:hover {
@@ -153,11 +157,20 @@ i.fas.filter {
     text-align: center;  
     margin-right: 20px;
     font-weight: bold;
-    padding-right: 10px;    
+    padding-right: 15px;    
 }
 
 .familial:hover {
     color: #0065FC;
+}
+
+.fas.filter.fa-child {
+color:#fc000d ;
+    background-color:#DEEBFF;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 10px;  
 }
 
 .romantique {
@@ -166,7 +179,7 @@ i.fas.filter {
     text-align: center;  
     margin-right: 20px;
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 15px;   
 }
 
 .romantique:hover {
@@ -178,7 +191,7 @@ i.fas.filter {
     border-radius: 30px;
     text-align: center;
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .animaux:hover {
@@ -288,8 +301,7 @@ padding:2px;
     height: 103px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
-    padding-top: 3px;
-           
+    padding-top: 3px;      
 }
 
 .texte {
@@ -569,109 +581,6 @@ li {
 
 /* Fin du Footer */
 
-@media all and (max-width: 768px) {
-    header {
-    width: auto
-}
-nav.conteneur{
-    display: flex;
-    flex-direction: column;    
-}
-.logo {
-display: flex;
-align-self: center;
-    width: 131px;
-    height: 50px;
-}
-
-.linkHeader:hover {
-    border-bottom: solid #0065FC;
-    border-top: none;
-}
-
-.link {
-    display: flex;
-    align-self: center;
-}
-
-.conteneur1 {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.conteneur3 { 
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: space-around;
-    background-color:#F2F2F2;
-    border-radius: 0%;
-    width: auto;
-}    
-    
-.LesPPopulaires {
-    display: flex;
-    flex-direction: column;
-    align-items: center;       
-    height: auto;
-}
-
-.conteneur2 {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    border-radius: 0%;
-    background-color: white;  
-}
-
-.HAMarseille {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 0%;    
-}
-
-.hébergements {
-    display: flex;
-    flex-direction: column;   
-}
-
-.logement {
-    width: auto;   
-}
-
-.conteneurAconteneur {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: auto;
-}
-
-.conteneur6 {
-    width: auto;
-    margin-bottom: 5%;
-}
-
-.conteneur7 {
-    width: auto;
-    margin-bottom: 5%;
-}
-
-.conteneur8 {
-    width: auto;
-    margin-bottom: 5%;
-}
-
-.conteneur9 {
-    width: auto;
-}
-
-.conteneur10 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
-}
-}  
     
 @media all and (max-widht: 992px) {
 
