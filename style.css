@@ -48,8 +48,9 @@ body {
     margin-bottom: 15px;
 }
 
-strong {
-    color:#B6B3B3
+.strong {
+    color:#B6B3B3;
+    font-weight: bolder;
     }
 
 .bloc {
@@ -566,16 +567,21 @@ li {
     color: #0065FC;
 }
 
-
 /* Fin du Footer */
 
 @media all and (max-width: 768px) {
     header {
     width: auto
-    }
+}
 nav.conteneur{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+}
+.logo {
+display: flex;
+align-self: center;
+    width: 131px;
+    height: 50px;
 }
 
 .linkHeader:hover {
@@ -583,6 +589,88 @@ nav.conteneur{
     border-top: none;
 }
 
+.link {
+    display: flex;
+    align-self: center;
+}
+
+.conteneur1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.conteneur3 { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    background-color:#F2F2F2;
+    border-radius: 0%;
+    width: auto;
+}    
+    
+.LesPPopulaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    height: auto;
+}
+
+.conteneur2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border-radius: 0%;
+    background-color: white;  
+}
+
+.HAMarseille {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0%;    
+}
+
+.hébergements {
+    display: flex;
+    flex-direction: column;   
+}
+
+.logement {
+    width: auto;   
+}
+
+.conteneurAconteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+}
+
+.conteneur6 {
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.conteneur7 {
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.conteneur8 {
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.conteneur9 {
+    width: auto;
+}
+
+.conteneur10 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
 }  
     
 @media all and (max-widht: 992px) {
