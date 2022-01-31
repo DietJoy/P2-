@@ -97,6 +97,14 @@ display: none;
     object-fit: cover;       
 }
 
+.AfficherPlus {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px; 
+}
+
 /* Sections 3:Les plus populaires*/
 
 .conteneur3 { 
@@ -145,19 +153,19 @@ display: none;
 
 .conteneur6 {
     width: auto;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .vieuxPort {
     height: 92%;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
-    object-fit: cover;
+    object-fit: cover;    
 }
 
 .conteneur7 {
     width: auto;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .fort {
@@ -176,7 +184,7 @@ display: none;
 
 .conteneur8 {
     width: auto;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .parcN {

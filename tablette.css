@@ -21,7 +21,6 @@
         height: 50px;
     }
     
-
     .link {
         display: flex;
         align-self: center;
@@ -45,7 +44,9 @@
         color:#0065FC;
         border-bottom: solid #0065FC;
     }
-     
+    
+/* section 1: Filters */
+
     .h1Strong {
         display: flex;
         flex-direction: column;
@@ -78,6 +79,7 @@
         margin-bottom: 20px;
         font-weight: bold;
     }
+
 /*Section 2: Hébergement à Marseille*/
 
 .conteneur1 {
@@ -108,6 +110,15 @@
     padding-top: 3px;
     object-fit: cover;      
 }
+
+.AfficherPlus {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 37px; 
+}
+
 
 /* Sections 3:Les plus populaires*/
 
@@ -164,6 +175,10 @@
 
 /* Les activités */
 
+.conteneur5 {
+    padding-left: 47px;  
+ }
+
 .conteneurAconteneur {
     display: flex;
     flex-direction: row;
@@ -177,16 +192,58 @@
     order:1;
 }
 
+.vieuxPort {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0% 0%;
+    object-fit: cover;
+}
+
 .conteneur7:nth-child(2) {
     order:2;
+}
+
+.fort {
+    height: 85%;
+    width: 100%;
+    border-radius:20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.frioul {
+    height: 78%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .conteneur8:nth-child(3) {
     order:4;
 }
 
+.parcN {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
 .conteneur9:nth-child(4) {
     order:3;
+}
+
+.notreDame {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+ }
+
+.parcL { 
+    height: 85%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px; 
+    object-fit: cover; 
 }
 
 /* Footer */
@@ -196,6 +253,5 @@
     flex-direction: row;
     padding-left: 40px;
 }
-
 
 }
