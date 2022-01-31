@@ -26,6 +26,10 @@ nav.conteneur{
 
 /* section 1: Filters */
 
+h1 {
+    margin-bottom: 0px;
+}
+
 .recherche {   
 display: none;        
 }

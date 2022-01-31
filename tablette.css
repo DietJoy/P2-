@@ -1,10 +1,26 @@
     
-@media all and (max-widht: 992px) (min-widht: 769px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
    
+
+    header {
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 30px;
+        margin: auto;
+    }  
+    
     nav.conteneur{
         display: flex;
-        flex-direction: row;    
+        flex-direction: row;           
     }
+
+    .logo {
+        display: flex;
+        align-self: center;
+        width: 121px;
+        height: 50px;
+    }
+    
 
     .link {
         display: flex;
@@ -27,9 +43,21 @@
 
     .linkHeader:focus {
         color:#0065FC;
-        border-top: solid #0065FC;
+        border-bottom: solid #0065FC;
     }
-       
+     
+    .h1Strong {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding:0px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+    }
+    
     .filtresMobiles {
         display: flex;
         flex-direction: row;
@@ -46,6 +74,8 @@
         flex-wrap: wrap;
         align-items: baseline;
         margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         font-weight: bold;
     }
 /*Section 2: Hébergement à Marseille*/
@@ -56,10 +86,27 @@
 }
 
 .conteneur2 {
-    background-color:#F2F2F2;
+    background-color: white;
     border-radius: 20px;
     padding: 10px;   
     width: auto;         
+}
+
+.HAMarseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.logementPhoto {
+    display: flex;
+    align-self: center;
+    height: 103px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 3px;
+    object-fit: cover;      
 }
 
 /* Sections 3:Les plus populaires*/
@@ -68,10 +115,87 @@
     display: flex;
     flex-direction: column;
     background-color:#F2F2F2;
-    border-radius: 20px;
-    width: auto ;      
+    border-radius: 0px;
+    width: auto ;
+    height: 190px;      
 }
 
+.titreIconePopulaire {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 40px; 
+    padding-right: 30px;   
+}
+
+.LesPPopulaires {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    height: 210px;
+    padding-left: 15px;
+    padding-right: 30x;
+    padding-bottom: 15px;    
+}
+
+.Populaire {
+    display: flex;
+    flex-direction: row;
+    border: white;
+    border-radius: 20px;
+    box-shadow: 2px 4px 3px #ece7e7;
+    background-color: white;
+    width: 28%;
+    height: 90%; 
+}
+
+.photoPopulaire {
+    width: 35%;
+    height: 90%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16% 0% 0% 16%;
+    object-fit: cover;    
+}
+
+/* Les activités */
+
+.conteneurAconteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ 
+.contenur6:nth-child(1) {
+    order:1;
+}
+
+.conteneur7:nth-child(2) {
+    order:2;
+}
+
+.conteneur8:nth-child(3) {
+    order:4;
+}
+
+.conteneur9:nth-child(4) {
+    order:3;
+}
+
+/* Footer */
+
+.conteneur10 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
 
 
 }
