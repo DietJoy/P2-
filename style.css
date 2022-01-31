@@ -35,10 +35,12 @@ body {
     text-align: center;
     padding-top: 30px;
 }
-.linkHeader:hover {
+
+.linkHeader:focus {
     color:#0065FC;
     border-top: solid #0065FC;
 }
+
 /* section 1: Filters */
 
 .h1Strong {
@@ -51,7 +53,7 @@ body {
 .strong {
     color:#B6B3B3;
     font-weight: bolder;
-    }
+}
 
 .bloc {
     display: flex;
@@ -64,8 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
 .localisation {
@@ -163,16 +164,7 @@ i.fas.filter {
 .familial:hover {
     color: #0065FC;
 }
-
-.fas.filter.fa-child {
-color:#fc000d ;
-    background-color:#DEEBFF;
-    display: inline-block;
-    border-radius: 30px;
-    padding: 10px;
-    margin-right: 10px;  
-}
-
+    
 .romantique {
     border: #F2F2F2 solid;
     border-radius: 30px;
@@ -533,7 +525,6 @@ padding:2px;
     border-radius: 20px 20px 0px 0px;  
 }
 
-
 /* Footer */
 
 .conteneur10 {
@@ -581,8 +572,4 @@ li {
 
 /* Fin du Footer */
 
-    
-@media all and (max-widht: 992px) {
-
-}
 

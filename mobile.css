@@ -8,8 +8,8 @@ nav.conteneur{
     flex-direction: column;    
 }
 .logo {
-display: flex;
-align-self: center;
+    display: flex;
+    align-self: center;
     width: 131px;
     height: 50px;
 }
@@ -24,41 +24,39 @@ align-self: center;
     align-self: center;
 }
 
+/* section 1: Filters */
+
 .recherche {   
 display: none;        
 }
 
-
 .loupe {
- background-color: #0065FC;
- color: white;
- border: solid #0065FC 5px ;   
- border-bottom-right-radius: 10px;
- border-top-right-radius: 10px ;
- height: 46px;
- margin-left: 0px; 
+    display: flex;
+    align-items: center;
+    background-color: #0065FC;
+    color: white;
+    border: solid #0065FC 5px ;   
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+    height: 46px;
+    margin-left: 0px; 
 }
+
+.economique {
+    border: #F2F2F2 solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 0px;   
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+/*Section 2: Hébergement à Marseille*/
 
 .conteneur1 {
     display: flex;
     flex-direction: column-reverse;
-}
-
-.conteneur3 { 
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: space-around;
-    background-color:#F2F2F2;
-    border-radius: 0%;
-    width: auto;
-}    
-    
-.LesPPopulaires {
-    display: flex;
-    flex-direction: column;
-    align-items: center;       
-    height: auto;
 }
 
 .conteneur2 {
@@ -92,8 +90,48 @@ display: none;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     padding-top: 3px;
-    object-fit: cover;      
+    object-fit: cover;       
 }
+
+/* Sections 3:Les plus populaires*/
+
+.conteneur3 { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    background-color:#F2F2F2;
+    border-radius: 0%;
+    width: auto;
+    height: 500px; 
+} 
+
+.LesPPopulaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    height: auto;
+}
+
+.LesPPopulaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 15px;    
+}
+
+.photoPopulaire {
+    width: 35%;
+    height: 90%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16% 0% 0% 16%;
+    object-fit: cover;  
+}
+
+/* Les activités */
+
 .conteneurAconteneur {
     display: flex;
     flex-direction: column;
@@ -106,9 +144,30 @@ display: none;
     margin-bottom: 5%;
 }
 
+.vieuxPort {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0% 0%;
+    object-fit: cover;
+}
+
 .conteneur7 {
     width: auto;
     margin-bottom: 5%;
+}
+
+.fort {
+    height: 85%;
+    width: 100%;
+    border-radius:20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.frioul {
+    height: 78%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .conteneur8 {
@@ -116,13 +175,37 @@ display: none;
     margin-bottom: 5%;
 }
 
+.parcN {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
 .conteneur9 {
     width: auto;
 }
+
+.notreDame {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.parcL { 
+    height: 85%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px; 
+    object-fit: cover; 
+}
+
+/* Footer */
 
 .conteneur10 {
     display: flex;
     flex-direction: column;
     padding-left: 10%;
 }
+/* Fin du Footer */
 }  
