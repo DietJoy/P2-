@@ -14,9 +14,9 @@ nav.conteneur{
     height: 50px;
 }
 
-.linkHeader:hover {
+.linkHeader:focus {
     border-bottom: solid #0065FC;
-    border-top: none;
+    border-top: none;   
 }
 
 .link {
@@ -54,6 +54,22 @@ display: none;
     margin-left: 0px;   
     font-weight: bold;
     padding-right: 15px;
+}
+
+.economique:focus {
+    color: #0065FC;
+}
+
+.familial:focus {
+    color: #0065FC;
+}
+
+.romantique:focus {
+    color: #0065FC;
+}
+
+.animaux:focus {
+    color: #0065FC;
 }
 
 /*Section 2: Hébergement à Marseille*/
@@ -219,5 +235,10 @@ display: none;
     flex-direction: column;
     padding-left: 10%;
 }
+
+.linkFooter:focus {
+    color: #0065FC;
+}
+
 /* Fin du Footer */
 }  

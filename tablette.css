@@ -35,14 +35,10 @@
         padding-top: 30px;
     }
     
-    .linkHeader:hover {
-        border-bottom: solid #0065FC;
-        border-top: none;
-    }
-
     .linkHeader:focus {
         color:#0065FC;
         border-bottom: solid #0065FC;
+        border-top:none;
     }
     
 /* section 1: Filters */
@@ -78,6 +74,22 @@
         margin-top: 20px;
         margin-bottom: 20px;
         font-weight: bold;
+    }
+
+    .economique:focus {
+        color: #0065FC;
+    }
+    
+    .familial:focus {
+        color: #0065FC;
+    }
+    
+    .romantique:focus {
+        color: #0065FC;
+    }
+    
+    .animaux:focus {
+        color: #0065FC;
     }
 
 /*Section 2: Hébergement à Marseille*/
@@ -253,5 +265,10 @@
     flex-direction: row;
     padding-left: 40px;
 }
+
+.linkFooter:focus {
+    color: #0065FC;
+}
+
 
 }
