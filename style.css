@@ -428,7 +428,7 @@ padding:2px;
 
 .conteneur6 {  
     box-shadow: 2px 4px 3px #ece7e7;
-    width: 290px;
+    width: 22%;
     height: 390px;
     border-radius: 20px 20px 20px 20px;  
 }
@@ -443,7 +443,7 @@ padding:2px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    width: 290px;
+    width: 22%;
     height: 390px;    
 }
 
@@ -475,7 +475,7 @@ padding:2px;
 
 .conteneur8 {
     box-shadow: 2px 4px 3px #ece7e7;
-    width: 290px;
+    width: 22%;
     height: 390px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -490,7 +490,7 @@ padding:2px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;   
-    width: 290px ;
+    width: 22%;
     height: 390px ;
     gap: 30px;   
 }
