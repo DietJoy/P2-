@@ -198,7 +198,16 @@
     flex-wrap: wrap;
     gap: 20px;
 }
- 
+
+.titreCard {
+    font-weight: bolder;
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 4px;
+    padding-left: 15px;
+    line-height: 80%;
+}
+
 .contenur6:nth-child(1) {
     order:1;
 }
