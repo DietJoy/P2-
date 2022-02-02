@@ -36,7 +36,7 @@ body {
     padding-top: 30px;
 }
 
-.linkHeader:focus {
+.linkHeader:hover {
     color:#0065FC;
     border-top: solid #0065FC;
 }
@@ -275,7 +275,6 @@ color: black;
     display: flex;
     flex-direction: column;
     background-color: white;
-border: white;
 box-shadow: 2px 4px 3px #ece7e7;
 margin-bottom: 30px;
 margin-right: 10px;
@@ -381,8 +380,7 @@ padding:2px;
 
 .Populaire {
     display: flex;
-    flex-direction: row;
-    border: white;
+    flex-direction: row;  
     border-radius: 20px;
     box-shadow: 2px 4px 3px #ece7e7;
     background-color: white;
@@ -394,7 +392,7 @@ padding:2px;
     width: 35%;
     height: 90%;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 5px;
     border-radius: 16% 0% 0% 16%;    
 }

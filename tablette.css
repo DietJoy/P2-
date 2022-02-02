@@ -35,7 +35,7 @@
         padding-top: 30px;
     }
     
-    .linkHeader:focus {
+    .linkHeader:hover {
         color:#0065FC;
         border-bottom: solid #0065FC;
         border-top:none;
@@ -149,7 +149,7 @@
     align-items: baseline;
     justify-content: space-between;
     padding-left: 40px; 
-    padding-right: 30px;   
+    padding-right: 42px;   
 }
 
 .LesPPopulaires {
@@ -160,14 +160,13 @@
     gap: 5px;
     height: 210px;
     padding-left: 15px;
-    padding-right: 30x;
+    padding-right: 25px;
     padding-bottom: 15px;    
 }
 
 .Populaire {
     display: flex;
     flex-direction: row;
-    border: white;
     border-radius: 20px;
     box-shadow: 2px 4px 3px #ece7e7;
     background-color: white;
