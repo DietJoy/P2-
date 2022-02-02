@@ -310,7 +310,7 @@ padding:2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 15px; 
+    padding-left: 30px; 
 }
 
 /* Sections 3:Les plus populaires*/
@@ -399,7 +399,7 @@ padding:2px;
     border-radius: 16% 0% 0% 16%;    
 }
 
-/* Les activités */
+/* Sections 4: Les activités */
 
 .conteneur4 {
     margin-top: 50px;      

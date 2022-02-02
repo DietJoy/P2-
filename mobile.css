@@ -3,6 +3,7 @@
     header {
     width: auto
 }
+
 nav.conteneur{
     display: flex;
     flex-direction: column;    
@@ -158,7 +159,7 @@ display: none;
     object-fit: cover;  
 }
 
-/* Les activités */
+/* Section 4: Les activités */
 
 .conteneurAconteneur {
     display: flex;
