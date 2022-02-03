@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1280px;
+    max-width: 1480px;
 }    
 
 .link {
@@ -54,7 +54,7 @@ body {
     display: flex;
     flex-direction: column;
    margin-left: 30px;
-   max-width: 1280px;
+   max-width: 1580px;
 }
 
 .bloc1 {
@@ -210,7 +210,7 @@ i.fas.filter {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 1380px;
+    max-width: 1580px;
 }
 
 .conteneur2 {
@@ -398,7 +398,7 @@ padding:2px;
 
 .conteneur4 {
     margin-top: 50px; 
-    max-width: 1380px;   
+    max-width: 1580px;   
 }
 
 .conteneur5 {
@@ -528,7 +528,7 @@ padding:2px;
     margin-top: 40px;  
     justify-content: space-around;
     align-items:baseline;
-    max-width: 1380px; 
+    max-width: 1580px; 
 }
 
 .leFooter {
