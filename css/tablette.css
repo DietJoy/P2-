@@ -1,0 +1,278 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   
+    header {
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 30px;
+        margin: auto;
+    }  
+    
+    nav.conteneur{
+        display: flex;
+        flex-direction: row;           
+    }
+
+    .logo {
+        display: flex;
+        align-self: center;
+        width: 121px;
+        height: 50px;
+    }
+    
+    .link {
+        display: flex;
+        align-self: center;
+    }
+
+    .linkHeader {
+        display: flex;
+        text-decoration: none;
+        color: #B6B3B3;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .linkHeader:hover {
+        color:#0065FC;
+        border-bottom: solid #0065FC;
+        border-top:none;
+    }
+    
+/* section 1: Filters */
+
+    .h1Strong {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding:0px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+    }
+    
+    .filtresMobiles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin: 0px;
+        font-weight: bold;
+      justify-content: flex-start;
+    }
+    
+    .filtres {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .economique:focus {
+        color: #0065FC;
+    }
+    
+    .familial:focus {
+        color: #0065FC;
+    }
+    
+    .romantique:focus {
+        color: #0065FC;
+    }
+    
+    .animaux:focus {
+        color: #0065FC;
+    }
+
+/*Section 2: Hébergement à Marseille*/
+
+.conteneur1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.conteneur2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;   
+    width: auto;         
+}
+
+.HAMarseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.logementPhoto {
+    display: flex;
+    align-self: center;
+    height: 103px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 3px;
+    object-fit: cover;      
+}
+
+.AfficherPlus {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 37px; 
+}
+
+/* Sections 3:Les plus populaires*/
+
+.conteneur3 { 
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    border-radius: 0px;
+    width: auto ;
+    height: 190px;      
+}
+
+.titreIconePopulaire {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 40px; 
+    padding-right: 42px;   
+}
+
+.LesPPopulaires {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    height: 210px;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;    
+}
+
+.Populaire {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 2px 4px 3px #ece7e7;
+    background-color: white;
+    width: 28%;
+    height: 90%; 
+}
+
+.photoPopulaire {
+    width: 35%;
+    height: 90%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16% 0% 0% 16%;
+    object-fit: cover;    
+}
+
+/* Section 4 : Les activités */
+
+.conteneur5 {
+    padding-left: 47px;  
+ }
+
+.conteneurAconteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.titreCard {
+    font-weight: bolder;
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 4px;
+    padding-left: 15px;
+    line-height: 80%;
+}
+
+.contenur6:nth-child(1) {
+    order:1;
+}
+
+.vieuxPort {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0% 0%;
+    object-fit: cover;
+}
+
+.conteneur7:nth-child(2) {
+    order:2;
+}
+
+.fort {
+    height: 85%;
+    width: 100%;
+    border-radius:20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.frioul {
+    height: 78%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.conteneur8:nth-child(3) {
+    order:4;
+}
+
+.parcN {
+    height: 92%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.conteneur9:nth-child(4) {
+    order:3;
+}
+
+.notreDame {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+ }
+
+.parcL { 
+    height: 85%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px; 
+    object-fit: cover; 
+}
+
+/* Footer */
+
+.conteneur10 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.linkFooter:focus {
+    color: #0065FC;
+}
+
+}
