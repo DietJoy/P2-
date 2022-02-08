@@ -10,6 +10,14 @@ nav.conteneur{
     align-items: center;    
 }
 
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    max-width: 1480px;
+}  
+
 .logo {
     display: flex;
     align-self: center;
@@ -283,7 +291,7 @@ display: none;
 .leFooter {
     display: flex;
     flex-direction: row;     
-    width: 29%;
+    width: 80%;
     padding-bottom: 10px;
 }
 
