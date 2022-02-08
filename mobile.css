@@ -5,13 +5,16 @@
 
 nav.conteneur{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
 
 .logo {
     display: flex;
     align-self: center;
-    width: 131px;
+    justify-content: center;
+    width: 101px;
     height: 50px;
 }
 
@@ -23,12 +26,14 @@ nav.conteneur{
 .link {
     display: flex;
     align-self: center;
+    justify-content: space-between;
 }
 
 /* section 1: Filters */
 
 h1 {
     margin-bottom: 0px;
+    font-size: 22px;
 }
 
 .recherche {   
@@ -170,11 +175,12 @@ display: none;
 
 .conteneur6 {
     width: auto;
+    height: 226px;
     margin-bottom: 8%;
 }
 
 .vieuxPort {
-    height: 92%;
+    height: 85%;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
     object-fit: cover;    
@@ -185,6 +191,14 @@ display: none;
     margin-bottom: 8%;
 }
 
+.conteneurA {  
+    box-shadow: 2px 4px 3px #ece7e7;
+    height: 226px;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 8%;
+}
+
 .fort {
     height: 85%;
     width: 100%;
@@ -192,8 +206,16 @@ display: none;
     object-fit: cover;
 }
 
+.conteneurB { 
+    box-shadow: 2px 4px 3px #ece7e7;
+    height: 226px;
+    width: auto;
+    border-radius: 20px 20px 20px 20px; 
+    margin-bottom: 8%;  
+}
+
 .frioul {
-    height: 78%;
+    height: 85%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -201,11 +223,13 @@ display: none;
 
 .conteneur8 {
     width: auto;
+    height: 226px;
     margin-bottom: 8%;
+    margin-top: 8%;
 }
 
 .parcN {
-    height: 92%;
+    height: 85%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -213,14 +237,29 @@ display: none;
 
 .conteneur9 {
     width: auto;
+    margin-bottom: 8%;   
+}
+
+.conteneurC {   
+    box-shadow: 2px 4px 3px #ece7e7;
+    height: 226px;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;    
 }
 
 .notreDame {
-    height: 80%;
+    height: 85%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+
+.conteneurD {  
+    box-shadow: 2px 4px 3px #ece7e7;
+    height: 226px;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+}    
 
 .parcL { 
     height: 85%;
@@ -240,6 +279,33 @@ display: none;
 .linkFooter:focus {
     color: #0065FC;
 }
+
+.leFooter {
+    display: flex;
+    flex-direction: row;     
+    width: 29%;
+    padding-bottom: 10px;
+}
+
+.footer {  
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+ul {
+    font-size: 16px;
+    padding-left: 0%;
+    padding-bottom: 5%;
+    margin: 0%;
+    margin-top: 15%;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 25px ;
+}
+
 
 /* Fin du Footer */
 }  
