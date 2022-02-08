@@ -1,40 +1,44 @@
 @media all and (max-width: 768px) {
     header {
-    width: auto
+    width: auto;
+    padding: 10px;
 }
 
 nav.conteneur{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+       
 }
-
-.conteneur {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-    max-width: 1480px;
-}  
 
 .logo {
     display: flex;
     align-self: center;
     justify-content: center;
-    width: 101px;
+    width: 80px;
     height: 50px;
+    padding-left: 20px;
+}
+
+.linkHeader {
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ padding-bottom: 10px;  
 }
 
 .linkHeader:hover {
-    border-bottom: solid #0065FC;
-    border-top: none;   
+    border-bottom: solid #0065FC; 
+    border-top: none;     
 }
 
 .link {
     display: flex;
-    align-self: center;
-    justify-content: space-between;
+    align-self: center; 
+    justify-content: space-around;
+    width: 339px;   
+    gap: 0px;
 }
 
 /* section 1: Filters */
@@ -55,7 +59,9 @@ display: none;
     color: white;
     border: solid #0065FC 5px ;   
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
     height: 46px;
     margin-left: 0px; 
 }
