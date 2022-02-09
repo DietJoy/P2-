@@ -8,8 +8,7 @@ nav.conteneur{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-       
+    align-items: center;      
 }
 
 .logo {
@@ -187,14 +186,22 @@ display: none;
     width: auto;
 }
 
+.titreCard {
+    font-weight: bolder;
+    margin: 0px;
+    padding-top: 7px;
+    padding-left: 20px;
+    line-height: 100%;
+}
+
 .conteneur6 {
     width: auto;
-    height: 226px;
-    margin-bottom: 8%;
+    height: 214px;
+    margin-bottom: 20px;
 }
 
 .vieuxPort {
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
     object-fit: cover;    
@@ -202,19 +209,22 @@ display: none;
 
 .conteneur7 {
     width: auto;
-    margin-bottom: 8%;
+    height: 450px;
+    margin-bottom: 20px;
+    gap:0px;
+    justify-content: flex-start;
 }
 
 .conteneurA {  
     box-shadow: 2px 4px 3px #ece7e7;
-    height: 226px;
+    height: 214px;
     width: auto;
     border-radius: 20px 20px 20px 20px;
-    margin-bottom: 8%;
+    margin-bottom: 20px;
 }
 
 .fort {
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius:20px 20px 0px 0px;
     object-fit: cover;
@@ -222,14 +232,15 @@ display: none;
 
 .conteneurB { 
     box-shadow: 2px 4px 3px #ece7e7;
-    height: 226px;
+    height: 214px;
     width: auto;
     border-radius: 20px 20px 20px 20px; 
-    margin-bottom: 8%;  
+    margin-bottom: 0%;
+    padding-bottom: 0%;  
 }
 
 .frioul {
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -237,13 +248,13 @@ display: none;
 
 .conteneur8 {
     width: auto;
-    height: 226px;
-    margin-bottom: 8%;
-    margin-top: 8%;
+    height: 214px;
+    margin-bottom: 20px;
+    margin-top: 0%;
 }
 
 .parcN {
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -251,32 +262,36 @@ display: none;
 
 .conteneur9 {
     width: auto;
-    margin-bottom: 8%;   
+    height: 450px;
+    margin-bottom: 20px;
+    gap: 0px;   
 }
 
 .conteneurC {   
     box-shadow: 2px 4px 3px #ece7e7;
-    height: 226px;
+    height: 214px;
     width: auto;
-    border-radius: 20px 20px 20px 20px;    
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 20px;   
 }
 
 .notreDame {
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-.conteneurD {  
+.conteneurD {
     box-shadow: 2px 4px 3px #ece7e7;
-    height: 226px;
+    height: 214px;
     width: auto;
     border-radius: 20px 20px 20px 20px;
+    padding-bottom: 0%;
 }    
 
 .parcL { 
-    height: 85%;
+    height: 80%;
     width: 100%;
     border-radius: 20px 20px 0px 0px; 
     object-fit: cover; 
